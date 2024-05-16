@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleApp2
@@ -17,7 +18,7 @@ namespace ConsoleApp2
             pow = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
         }
-<<<<<<< HEAD
+
         public static void paras2()
         {
             int num, pow;
@@ -27,7 +28,7 @@ namespace ConsoleApp2
             pow = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
         }
-=======
+
 
         public static void josh()
         {
@@ -59,13 +60,13 @@ namespace ConsoleApp2
 
             Console.ReadLine();
         }
-         public static void joanna ()
+         public static void joanna()
         {
             int balance, posNeg;
             Random rand = new Random();
             Console.WriteLine("Generating your bank balance");
             Console.WriteLine("Please wait.  ");
-            Thread.Sleep(200);
+            Thread.Sleep(5000);
 
             balance = rand.Next(1001);
             posNeg = rand.Next(2);
@@ -88,11 +89,13 @@ namespace ConsoleApp2
             Console.ReadLine();
         }
 
->>>>>>> 543d95f34b044b123d09e5d400bd091559cfd350
+
         static void Main(string[] args)
         {
-        
-
+            paras();
+            paras2();
+            josh();
+            joanna();
         }
 
     }
