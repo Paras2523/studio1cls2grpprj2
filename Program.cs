@@ -90,6 +90,45 @@ namespace ConsoleApp2
         }
 
 
+        public static void josh2()
+        {
+            int t1Score, t2Score;
+            Random rand = new Random();
+            t1Score = rand.Next(10);
+            t2Score = rand.Next(10);
+
+            if (t2Score > t1Score)
+
+            {
+
+                Console.WriteLine("Well done! Team 2 Won");
+                Console.WriteLine($"Team 1's score was {t1Score} while Team 2's score was {t2Score}");
+
+            }
+
+            else if (t2Score < t1Score)
+
+            {
+
+                Console.WriteLine("Unfortunately Team 2 has Lost :( and been defeated by team 1");
+                Console.WriteLine($"Team 1's score was {t1Score} while Team 2's score was {t2Score}");
+            }
+
+            else
+
+            {
+
+                Console.WriteLine("It was so close Team 1 and Team 2 have drawn");
+                Console.WriteLine($"Team 1's score was {t1Score} while Team 2's score was {t2Score}");
+
+            }
+
+
+            Console.ReadLine();
+        }
+
+
+
         static void Main(string[] args)
         {
             paras();
