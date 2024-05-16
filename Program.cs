@@ -48,6 +48,34 @@ namespace ConsoleApp2
 
             Console.ReadLine();
         }
+         public static void joanna ()
+        {
+            int balance, posNeg;
+            Random rand = new Random();
+            Console.WriteLine("Generating your bank balance");
+            Console.WriteLine("Please wait.  ");
+            Thread.Sleep(200);
+
+            balance = rand.Next(1001);
+            posNeg = rand.Next(2);
+
+            if (posNeg == 0)
+            {
+                balance = balance * -1;
+                Console.WriteLine("Can you hear that sound? It's your card being declined");
+                Console.Beep();
+                Console.Beep((int)523.2, 300);
+                Console.Beep((int)523.2, 300);
+                Console.Beep((int)523.2, 300);
+            }
+            else
+            {
+                Console.WriteLine("Positive balance");
+            }
+            Console.WriteLine($"Your balance is {balance}");
+            Thread.Sleep(5000);
+            Console.ReadLine();
+        }
 
         public static void josh2()
         {
