@@ -17,6 +17,17 @@ namespace ConsoleApp2
             pow = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
         }
+<<<<<<< HEAD
+        public static void paras2()
+        {
+            int num, pow;
+            Console.WriteLine("enter the number.");
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter the ammount of power.");
+            pow = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
+        }
+=======
 
         public static void josh()
         {
@@ -77,6 +88,7 @@ namespace ConsoleApp2
             Console.ReadLine();
         }
 
+
         public static void josh2()
         {
             int t1Score, t2Score;
@@ -113,6 +125,7 @@ namespace ConsoleApp2
 
             Console.ReadLine();
         }
+
 
         static void Main(string[] args)
         {
