@@ -19,12 +19,8 @@ namespace ConsoleApp2
             Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
         }
 
-<<<<<<< HEAD
-
-        public static void paras()
-=======
         public static void paras2()
->>>>>>> 7ac3222958528766b8b3084bd6b1a87545e5a331
+
         {
             int num, pow;
             Console.WriteLine("enter the number.");
@@ -33,10 +29,8 @@ namespace ConsoleApp2
             pow = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"your answer is {Math.Pow(num, pow)}");
         }
-<<<<<<< HEAD
-        static void Main(string[] args)
-        {
-=======
+
+        
 
 
         public static void josh()
@@ -144,7 +138,7 @@ namespace ConsoleApp2
             paras2();
             josh();
             joanna();
->>>>>>> 7ac3222958528766b8b3084bd6b1a87545e5a331
+            josh2();
         }
     }
 }
